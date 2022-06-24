@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet"  href="./style.css">
+    <script src= "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"></script>
+</head>
+
+<!-- <script>
+let name = prompt("Hi! What's your name?");
+if (name == null || name == "") {
+    txt = "No name provided";
+} else {
+    txt = "Hi, " + name + "! Have fun playing!";
+}
+alert(txt);
+</script> -->
+
+<body>
+    <div id = "game">
+    <div id="title">
+    <h1> ROCK, PAPER, SCISSORS </h1> 
+    </div>
+
+        <div>
+        <div id="directions">
+    <h2> Welcome! Rock, Paper, or Scissors? Make your choice below!</h2>
+    </div>
+
+
+         <div id="buttons">
+         <button type="button" id="rockButton"> ✊ </button>
+         <button type="button" id="paperButton"> 🖐 </button>
+         <button type="button" id="scissorsButton"> ✌️ </button>
+
+
+    <!-- <div class = "choices">
+   <div>
+    USER CHOICE:
+    <span class = "userChoice"></span>
+    </div>
+    <div>
+        COMPUTER CHOICE:
+        <span class = "computerChoice"></span>
+    </div>
+    <div>
+        RESULTS:
+        <span class="results"></span>
+    </div> -->
+
+
+    <div class="theResults">
+        <div id = "resultsDisplay">
+        <h3 id = "results"></h3>
+      </div>
+
+    <div class="scoreboard">
+            <p class ="scores">USER SCORE: <span
+        id ="userScore">0</span></p>
+            <p class ="scores">COMPUTER SCORE: <span
+        id = "computerScore">0</span></p>
+        </div>
+        </div>
+
+        <div id="reset">
+            <button type="reset" id="resetButton">Click here to reset and play another round!</button>
+
+
+      <script type="text/javascript" src="./RPS.js"></script>
+        </body>
+        </html>

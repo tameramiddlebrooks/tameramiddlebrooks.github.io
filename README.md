@@ -13,9 +13,10 @@ HTML
 
 CSS
 
-JQuery
+
 
 **Dependencies**
+
 Prerequisites for emulating this project include Windows 10, Git Bash, and a code editor (I used Visual Studio Code).
 
 
